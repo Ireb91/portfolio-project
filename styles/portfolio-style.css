@@ -2,10 +2,36 @@
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Raleway", sans-serif;
   --background-color: #f9f7fe;
+  --secondary-color: #85ac7d;
 }
 
 .hero {
   text-align: center;
   background-color: var(--background-color);
-  padding: 20px 160px;
+  padding: 100px 200px;
+}
+
+h1 {
+  font-family: var(--heading-font-family);
+  font-size: 96px;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.hero p {
+  font-family: var(--default-font-family);
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.btn-branding {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 6px 22px;
+  border-radius: 4px;
 }
