@@ -9,7 +9,7 @@
 .hero {
   text-align: center;
   background-color: var(--background-color);
-  padding: 100px 200px 200px;
+  padding: 100px 200px;
 }
 
 h1 {
@@ -39,6 +39,7 @@ h3 {
 
 .description {
   font-size: 20px;
+  line-height: 1.5;
 }
 
 .btn-branding {
@@ -65,4 +66,12 @@ h3 {
 
 .container p {
   text-align: justify;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 50px;
+    text-align: center;
+    padding: 0;
+  }
 }
