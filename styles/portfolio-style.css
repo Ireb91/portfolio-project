@@ -9,7 +9,7 @@
 .hero {
   text-align: center;
   background-color: var(--background-color);
-  padding: 100px 200px;
+  padding: 100px 200px 200px;
 }
 
 h1 {
@@ -48,10 +48,21 @@ h3 {
   border-radius: 4px;
 }
 
+.latest-travels {
+  font-family: var(--default-font-family);
+  font-size: 25px;
+  font-weight: 800;
+  margin: 50px auto 70px;
+}
 .btn-travel {
   border: 1px solid;
   border-color: var(--tertiary-color);
   color: var(--tertiary-color);
   padding: 6px 22px;
   border-radius: 4px;
+  margin-top: 20px;
+}
+
+.container p {
+  text-align: justify;
 }
