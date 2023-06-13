@@ -100,3 +100,17 @@ img:hover {
     margin: 10px auto 50px;
   }
 }
+
+.about-section h1 {
+  font-size: 50px;
+}
+
+.about-section h2 {
+  font-weight: 800;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.about-section p {
+  margin-top: 20px;
+}
