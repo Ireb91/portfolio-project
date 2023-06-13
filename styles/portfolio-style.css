@@ -79,7 +79,7 @@ h3 {
   text-align: justify;
 }
 
-img {
+.trip img {
   border-radius: 4px;
 }
 img:hover {
@@ -144,4 +144,8 @@ img:hover {
   font-weight: 400;
   color: var(--secondary-color);
   transition: all 200ms ease-in-out;
+}
+
+.profile:hover {
+  transform: none;
 }
