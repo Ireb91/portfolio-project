@@ -79,9 +79,10 @@ h3 {
   text-align: justify;
 }
 
-.trip img {
+img {
   border-radius: 4px;
 }
+
 img:hover {
   transform: scale(1.2);
   transition: all 300ms ease-in-out;
@@ -106,26 +107,52 @@ img:hover {
   .container a {
     margin: 10px auto 50px;
   }
+
+  .about-section-container {
+    padding: 20px 20px !important;
+  }
+  .about-section-container h1 {
+    font-size: 30px !important;
+    text-align: center;
+  }
+  .about-section-container h2 {
+    text-align: center;
+  }
+  .about-section-container p {
+    font-size: 15px;
+    text-align: justify;
+  }
+  .about-section-container .btn-branding {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .about-section-container .profile {
+    max-width: 80%;
+  }
 }
 
-.about-section h1 {
+.about-section-container {
+  padding: 100px;
+}
+
+.about-section-container h1 {
   font-size: 50px;
+  margin-top: 30px;
 }
 
-.about-section h2 {
+.about-section-container h2 {
   font-weight: 800;
   font-size: 20px;
   margin-top: 20px;
 }
 
-.about-section p {
+.about-section-container p {
   margin-top: 20px;
 }
 
-.about-section img {
-  height: 400px;
+.profile {
   display: block;
-  margin: 0 auto;
+  padding-top: 20px;
   border-radius: 4px;
 }
 
