@@ -161,12 +161,27 @@ img:hover {
 .destinations-title {
   text-align: center;
   font-size: 54px;
-  margin: 30px auto 80px;
+  margin: 40px auto 20px;
 }
 
-.destinations-picture {
+.container-destinations {
+  padding: 60px;
 }
 
 .destinations-picture:hover {
   transform: none;
+}
+
+.destination-grid-title {
+  text-align: center;
+  margin: 15px 0 0;
+  font-weight: 600;
+}
+
+.destination-grid-description {
+  text-align: center;
+  font-family: var(--default-font-family);
+  font-size: 20px;
+  opacity: 0.8;
+  margin-bottom: 30px;
 }
