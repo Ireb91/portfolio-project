@@ -185,3 +185,23 @@ img:hover {
   opacity: 0.8;
   margin-bottom: 30px;
 }
+
+.container-contacts {
+  text-align: center;
+}
+
+.container-contacts h1 {
+  margin-top: 120px;
+  font-size: 50px;
+}
+
+.container-contacts h3 {
+  font-size: 30px;
+  margin-top: 40px;
+  font-weight: 600;
+}
+
+.container-contacts a {
+  font-family: var(--default-font-family);
+  font-weight: 600;
+}
