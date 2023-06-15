@@ -157,3 +157,16 @@ img:hover {
 .profile:hover {
   transform: none;
 }
+
+.destinations-title {
+  text-align: center;
+  font-size: 54px;
+  margin: 30px auto 80px;
+}
+
+.destinations-picture {
+}
+
+.destinations-picture:hover {
+  transform: none;
+}
