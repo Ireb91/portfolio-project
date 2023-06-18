@@ -24,24 +24,32 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="/styles/portfolio-style.css" />
-    <title>Irene Bellani - destinations</title>
+      <meta
+      name="description"
+      content="Irene Bellani is a travel blogger and front end-developer based in Novara, Italy"
+    />
+    <title>Irene Bellani - travel blogger, front-end developer portfolio</title>
   </head>
   <body>
-      <nav class="d-flex justify-content-between">
-      <a href="/" class="logo d-none d-md-block">Irene Bellani</a>
-      <a href="/" class="logo d-block d-md-none">IB</a>
+             <nav class="d-flex justify-content-between">
+      <a href="/" class="logo d-none d-md-block" title="homepage"
+        >Irene Bellani</a
+      >
+      <a href="/" class="logo d-block d-md-none" title="homepage">IB</a>
       <ul>
         <li>
-          <a href="/">Home</a>
+          <a href="/" title="Irene Bellani homepage">Home</a>
         </li>
-        <li>
-          <a href="/about.html">About</a>
+        <li >
+          <a href="/about.html" title="About Irene Bellani">About</a>
         </li>
         <li class="active">
-          <a href="/destinations.html">Destinations</a>
+          <a href="/destinations.html" title="Irene Bellani's travels"
+            >Destinations</a
+          >
         </li>
         <li>
-          <a href="/contacts.html">Contacts</a>
+          <a href="/contacts.html" title="Irene Bellani's contacts">Contacts</a>
         </li>
       </ul>
     </nav>
@@ -51,20 +59,20 @@
         <div class="col-md-4">
           <img
             src="/images/Japan.jpg"
-            alt=""
+            alt="Japan"
             class="img-fluid destinations-picture"
           />
           <h2 class="destination-grid-title">Japan</h2>
           <p class="destination-grid-description">Summer 2023</p>
         </div>
         <div class="col-md-4">
-          <img src="/images/Morocco.jpg" alt="" / class="img-fluid
+          <img src="/images/Morocco.jpg" alt="Marrakech" / class="img-fluid
           destinations-picture">
           <h2 class="destination-grid-title">Marrakech</h2>
           <p class="destination-grid-description">The pearl of the south</h2p>
         </div>
         <div class="col-md-4">
-          <img src="/images/NY.jpg" alt="" / class="img-fluid
+          <img src="/images/NY.jpg" alt="New York" / class="img-fluid
           destinations-picture">
           <h2 class="destination-grid-title">New York</h2>
           <p class="destination-grid-description">The city that never sleeps</p>
@@ -74,25 +82,77 @@
         <div class="col-md-4">
           <img
             src="/images/Arizona.jpg"
-            alt=""
+            alt="Arizona"
             class="img-fluid destinations-picture"
           />
           <h2 class="destination-grid-title">Nevada, Utah, Arizona</h2>
           <p class="destination-grid-description">Moving west</p>
         </div>
         <div class="col-md-4">
-          <img src="/images/Wien.jpg" alt="" / class="img-fluid
+          <img src="/images/Wien.jpg" alt="Wien" / class="img-fluid
           destinations-picture">
           <h2 class="destination-grid-title">Wien</h2>
           <p class="destination-grid-description">The most elegant city in Europe</p>
         </div>
         <div class="col-md-4">
-          <img src="/images/Seville.jpg" alt="" / class="img-fluid
+          <img src="/images/Seville.jpg" alt="Seville" / class="img-fluid
           destinations-picture">
           <h2 class="destination-grid-title">Seville</h2>
           <p class="destination-grid-description">An Islamic legacy</p>
         </div>
       </div>
     </div>
+     <footer>
+      <div class="contacts-box justify-content-between d-none d-lg-block">
+        <div class="row">
+          <div class="col-8">
+            <h3>Want to travel together?</h3>
+            <p class="text-muted">Let's get in touch!</p>
+          </div>
+          <div class="col-4 d-flex align-self-center justify-content-center">
+            <a
+              href="/contacts.html"
+              class="btn-branding"
+              title="Irene Bellani's contacts"
+              >Contact me</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="text-center">
+        <a href="mailto:bellani.irene@gmail.com" class="footer-email"
+          >bellani.irene@gmail.com</a
+        >
+      </div>
+      <div class="footer-icons text-center">
+        <a
+          href="https://www.instagram.com/irene.bellani/"
+          target="_blank"
+          title="Instagram profile"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a
+          href="https://github.com/Ireb91"
+          target="_blank"
+          title="Github profile"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/irene-bellani/"
+          title="Linkedin profile"
+        >
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </div>
+    </footer>
+        <p class="text-center text-muted">
+      This project was coded by Irene Bellani and is open-sourced on
+      <a
+        href="https://github.com/Ireb91/portfolio-project"
+        target="_blank"
+        title="see my project on Github"
+        >Github</a
+      >
+    </p>
   </body>
 </html>

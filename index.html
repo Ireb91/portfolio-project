@@ -24,24 +24,32 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="/styles/portfolio-style.css" />
-    <title>Irene Bellani - portfolio</title>
+    <meta
+      name="description"
+      content="Irene Bellani is a travel blogger and front end-developer based in Novara, Italy"
+    />
+    <title>Irene Bellani - travel blogger, front-end developer portfolio</title>
   </head>
   <body>
     <nav class="d-flex justify-content-between">
-      <a href="/" class="logo d-none d-md-block">Irene Bellani</a>
-      <a href="/" class="logo d-block d-md-none">IB</a>
+      <a href="/" class="logo d-none d-md-block" title="homepage"
+        >Irene Bellani</a
+      >
+      <a href="/" class="logo d-block d-md-none" title="homepage">IB</a>
       <ul>
         <li class="active">
-          <a href="/">Home</a>
+          <a href="/" title="Irene Bellani homepage">Home</a>
         </li>
         <li>
-          <a href="/about.html">About</a>
+          <a href="/about.html" title="About Irene Bellani">About</a>
         </li>
         <li>
-          <a href="/destinations.html">Destinations</a>
+          <a href="/destinations.html" title="Irene Bellani's travels"
+            >Destinations</a
+          >
         </li>
         <li>
-          <a href="/contacts.html">Contacts</a>
+          <a href="/contacts.html" title="Irene Bellani's contacts">Contacts</a>
         </li>
       </ul>
     </nav>
@@ -56,7 +64,7 @@
         <div class="col d-none d-lg-block">
           <img
             src="/images/Morocco.jpg"
-            alt=""
+            alt="Marrakech"
             class="trip mx-auto d-block img-fluid h-75 mt-4 d-none d-lg-block"
           />
         </div>
@@ -87,7 +95,7 @@
         <div class="col d-none d-lg-block">
           <img
             src="/images/NY.jpg"
-            alt=""
+            alt="New York"
             class="trip mx-auto d-block img-fluid h-75 mt-4 d-none d-lg-block"
           />
         </div>
@@ -98,7 +106,7 @@
         <div class="col d-none d-lg-block">
           <img
             src="/images/Arizona.jpg"
-            alt=""
+            alt="Arizona"
             class="trip mx-auto d-block img-fluid h-75 mt-4 d-none d-lg-block"
           />
         </div>
@@ -122,7 +130,12 @@
             <p class="text-muted">Let's get in touch!</p>
           </div>
           <div class="col-4 d-flex align-self-center justify-content-center">
-            <a href="/contacts.html" class="btn-branding">Contact me</a>
+            <a
+              href="/contacts.html"
+              class="btn-branding"
+              title="Irene Bellani's contacts"
+              >Contact me</a
+            >
           </div>
         </div>
       </div>
@@ -132,16 +145,34 @@
         >
       </div>
       <div class="footer-icons text-center">
-        <a href="https://www.instagram.com/irene.bellani/" target="_blank"
+        <a
+          href="https://www.instagram.com/irene.bellani/"
+          target="_blank"
+          title="Instagram profile"
           ><i class="fa-brands fa-instagram"></i
         ></a>
-        <a href="https://github.com/Ireb91" target="_blank"
+        <a
+          href="https://github.com/Ireb91"
+          target="_blank"
+          title="Github profile"
           ><i class="fa-brands fa-github"></i
         ></a>
-        <a href="https://www.linkedin.com/in/irene-bellani/">
+        <a
+          href="https://www.linkedin.com/in/irene-bellani/"
+          title="Linkedin profile"
+        >
           <i class="fa-brands fa-linkedin"></i>
         </a>
       </div>
     </footer>
+    <p class="text-center text-muted">
+      This project was coded by Irene Bellani and is open-sourced on
+      <a
+        href="https://github.com/Ireb91/portfolio-project"
+        target="_blank"
+        title="see my project on Github"
+        >Github</a
+      >
+    </p>
   </body>
 </html>
