@@ -163,6 +163,7 @@ img:hover {
   font-weight: 600;
   color: var(--secondary-color);
   font-size: 20px;
+  text-decoration: none;
 }
 
 nav ul {
@@ -194,6 +195,37 @@ nav li.active a {
   color: var(--tertiary-color);
 }
 
+.footer-email {
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 20px;
+  transition: all 150ms ease-in-out;
+}
+
+.footer-icons {
+  margin: 30px auto;
+}
+
+.fa-brands {
+  color: var(--secondary-color);
+  font-size: 30px;
+  margin-inline: 20px;
+  transition: all 150ms ease-in-out;
+  cursor: pointer;
+  background-color: white;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.footer-email:hover {
+  color: var(--secondary-color);
+}
+
+.fa-brands:hover {
+  background-color: var(--secondary-color);
+  color: white;
+}
 @media (max-width: 994px) {
   .hero {
     padding: 50px;
