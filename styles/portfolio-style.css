@@ -161,6 +161,8 @@ img:hover {
 .container-contacts a {
   font-family: var(--default-font-family);
   font-weight: 600;
+  color: var(--secondary-color);
+  font-size: 20px;
 }
 
 nav ul {
