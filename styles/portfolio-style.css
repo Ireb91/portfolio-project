@@ -122,7 +122,9 @@ img:hover {
 }
 
 .container-destinations {
+  max-width: 75%;
   padding: 60px;
+  margin: 0 auto;
 }
 
 .destinations-picture:hover {
@@ -149,7 +151,7 @@ img:hover {
 
 .container-contacts h1 {
   font-size: 50px;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 .container-contacts h3 {
@@ -226,6 +228,27 @@ nav li.active a {
   background-color: var(--secondary-color);
   color: white;
 }
+
+.contacts-box {
+  margin: 0px 70px 60px;
+  padding: 30px 50px;
+  background-color: var(--background-color);
+  border-radius: 4px;
+}
+.contacts-box h3 {
+  margin: 0px 0px 10px;
+}
+
+.contacts-box p {
+  font-size: 20px;
+}
+
+.contacts-box a {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
 @media (max-width: 994px) {
   .hero {
     padding: 50px;
@@ -239,7 +262,12 @@ nav li.active a {
     font-size: 20px;
     margin: 25px auto;
   }
+
+  .container {
+    padding: 0px 30px;
+  }
   .container h3 {
+    font-size: 40px;
     margin-top: 0px;
   }
   .container a {
